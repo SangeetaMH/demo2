@@ -19,6 +19,7 @@ public class Employeeserviceimpl implements Employeeservice {
 
 	@Override
 	public Employee addEmployee(Employee emp) {
+		System.out.println("hello");
 		 return repo.save(emp);
 		
 	}
